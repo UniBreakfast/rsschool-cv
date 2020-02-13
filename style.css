@@ -9,7 +9,7 @@ body {
 }
 
 main {
-  width: min(1000px, 90%);
+  width: min(1000px, calc(100% - 80px));
   margin: auto;
   border: 2px solid black;
   border-radius: 30px;
@@ -20,4 +20,44 @@ main {
 hr {
   border: none;
   border-top: 2px solid black;
+}
+
+img {
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 22.5%;
+  float: right;
+  margin-left: 10px;
+}
+
+pre {
+  font-size: 14px;
+}
+
+.cutout {
+  border: 2px solid black;
+  background-color: cornsilk;
+  margin: 10px 0;
+  border-radius: 25px;
+}
+
+.slider {
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 5px 25px;
+  background-color: bisque;
+  width: max-content;
+  max-width: 97.8%;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+.skills {
+  margin: 5px auto;
+}
+
+.code {
+  margin-left: auto;
+  overflow: auto;
+  padding: 5px 50px;
 }
