@@ -19,7 +19,7 @@
 * PHP, MySQL, relational databases
 * little experience with React, Vue, Angular, TypeScript, Webpack
 * Python, C#, Forth, Lisp (limited knowledge)
-* online/offline programming tutoring, pair programming
+* __online/offline programming tutoring, pair programming__
 * advanced PC user for 25 years+
 
 ---
@@ -53,9 +53,14 @@ More on my GitHub: [github.com/UniBreakfast](https://github.com/UniBreakfast)
 
 ---
 
-### education
+### education:
 * Rolling Scopes School
 * easily 1k+ video lessons ranging from Crockford and Bob Martin to MPJ and Wes Bos
 * 15+ online video courses on web-development and JavaScript programming
 * 10+ books on JavaScript, Node.js, HTML, CSS (including "Eloquent JavaScript", "You Don't Know JS", etc.)
-* 500+ hours in online tutoring (giving and receiving) and pair programming (as a driver but mostly as a navigator)
+* __500+ hours in tutoring online (giving and receiving) and pair programming (as a driver but mostly as a navigator)__
+
+--- 
+
+#### English level:
+Somewhere around B1 or B2. I've been playing video games, watching YouTube, movies and TV series without subtitles, learning, reading printed and listening to audiobooks in English for the last twenty years. And I'm looking forward to get more practical experience and actually speak it.
