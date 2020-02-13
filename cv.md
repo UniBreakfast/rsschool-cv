@@ -8,3 +8,13 @@ contact info
 * Skype: unibreakfast
 * Email: mykhailo.velykoselskyi@gmail.com
 
+skills
+* Strong Vanilla JavaScript (2 years+)
+* HTML, CSS
+* Node.js, REST API
+* Git, GitHub
+* JSON, Mongo DB
+* PHP, MySQL, relational databases
+* Python, C#, Forth, Lisp (limited knowledge)
+* online/offline programming tutoring, pair programming
+* advanced PC user for 25 years+
