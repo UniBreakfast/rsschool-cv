@@ -7,6 +7,7 @@
 * Facebook: [facebook.com/UniBreakfast](https://facebook.com/UniBreakfast)
 * Skype: unibreakfast
 * Email: mykhailo.velykoselskyi@gmail.com
+
 ---
 
 ### skills:
@@ -19,6 +20,7 @@
 * Python, C#, Forth, Lisp (limited knowledge)
 * online/offline programming tutoring, pair programming
 * advanced PC user for 25 years+
+
 ---
 
 ### code examples:
@@ -44,7 +46,8 @@ const makeThrottled =(fn, delay)=> {
   return [throttle, cancel, runNow]
 }
 ```
-More on my GitHub: [github.com/UniBreakfast](https://github.com/UniBreakfast)
 * <sub>*do note: I easily change my code style adapting to the people I teach or work with.*</sub>
+
+More on my GitHub: [github.com/UniBreakfast](https://github.com/UniBreakfast)
 
 ---
