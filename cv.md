@@ -77,3 +77,5 @@ The enclosed profile is a summary of my knowledge, skills and experience. I look
 
 Yours sincerely,
 Mykhailo Ninin Velykoselskyi
+
+[⤒ go Up](https://unibreakfast.github.io/rsschool-cv/cv#mykhailo-velykoselskyi-ninin)
