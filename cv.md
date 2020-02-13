@@ -1,8 +1,8 @@
 # Mykhailo Velykoselskyi
-## *CV*
+## *CV for a position of a Junior JavaScript Developer*
 ### contact info:
-* Phone: +380(68)126-59-81, +380(66)194-49-81
-* Telegram: [t.me/unibreakfast](https://t.me/unibreakfast)
+* Phone: __+380(68)126-59-81__, __+380(66)194-49-81__
+* Telegram: __[t.me/unibreakfast](https://t.me/unibreakfast)__
 * LinkedIn: [linkedin.com/in/unibreakfast](https://www.linkedin.com/in/unibreakfast)
 * Facebook: [facebook.com/UniBreakfast](https://facebook.com/UniBreakfast)
 * Skype: unibreakfast
@@ -11,12 +11,13 @@
 ---
 
 ### skills:
-* Strong Vanilla JavaScript (2 years+)
-* HTML, CSS
-* Node.js, REST API
-* Git, GitHub
+* __Strong Vanilla JavaScript (2 years+)__
+* __HTML, CSS__
+* __npm, Node.js, REST API__
+* __Git, GitHub__
 * JSON, Mongo DB
 * PHP, MySQL, relational databases
+* little experience with React, Vue, Angular, TypeScript, Webpack
 * Python, C#, Forth, Lisp (limited knowledge)
 * online/offline programming tutoring, pair programming
 * advanced PC user for 25 years+
@@ -46,8 +47,15 @@ const makeThrottled =(fn, delay)=> {
   return [throttle, cancel, runNow]
 }
 ```
-* <sub>*do note: I easily change my code style adapting to the people I teach or work with.*</sub>
+* <sub>*__do note: I easily change my code style adapting to the people I teach or work with.__*</sub>
 
 More on my GitHub: [github.com/UniBreakfast](https://github.com/UniBreakfast)
 
 ---
+
+### education
+* Rolling Scopes School
+* easily 1k+ video lessons ranging from Crockford and Bob Martin to MPJ and Wes Bos
+* 15+ online video courses on web-development and JavaScript programming
+* 10+ books on JavaScript, Node.js, HTML, CSS (including "Eloquent JavaScript", "You Don't Know JS", etc.)
+* 500+ hours in online tutoring (giving and receiving) and pair programming (as a driver but mostly as a navigator)
