@@ -68,8 +68,6 @@ More on my GitHub: [github.com/UniBreakfast](https://github.com/UniBreakfast)
 * 10+ books on JavaScript, Node.js, HTML, CSS (including "Eloquent JavaScript", "You Don't Know JS", etc.)
 * __500+ hours in tutoring online (giving and receiving) and remote pair programming (as a driver but mostly as a navigator)__
 
---- 
-
 #### English level:
 Somewhere around B1 or B2. I've been playing video games, watching YouTube, movies and TV series without subtitles, learning, reading printed and listening to audiobooks in English for the last twenty years. And I'm looking forward to get more practical experience and actually speak it.
 
