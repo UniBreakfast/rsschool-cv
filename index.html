@@ -5,88 +5,92 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <h1>Mykhailo Velykoselskyi (Ninin)</h1>
-  <h2>CV for a position of a Junior JavaScript Developer</h2>
+  <main>
+    <h1>Mykhailo Velykoselskyi (Ninin)</h1>
+    <h2>CV for a position of a Junior JavaScript Developer</h2>
 
-  <h3>contact info:</h3>
-  <ul>
-    <li>Phone: <b>+380(68)126-59-81, +380(66)194-49-81</b></li>
-    <li>Telegram: <b><a>t.me/unibreakfast</a></b></li>
-    <li>LinkedIn: <a>linkedin.com/in/unibreakfast</a></li>
-    <li>Facebook: <a>facebook.com/UniBreakfast</a></li>
-    <li>Skype: unibreakfast</li>
-    <li>Email: <a>mykhailo.velykoselskyi@gmail.com</a></li>
-  </ul>
-  <hr>
+    <h3>contact info:</h3>
+    <ul>
+      <li>Phone: <b>+380(68)126-59-81, +380(66)194-49-81</b></li>
+      <li>Telegram: <b><a>t.me/unibreakfast</a></b></li>
+      <li>LinkedIn: <a>linkedin.com/in/unibreakfast</a></li>
+      <li>Facebook: <a>facebook.com/UniBreakfast</a></li>
+      <li>Skype: unibreakfast</li>
+      <li>Email: <a>mykhailo.velykoselskyi@gmail.com</a></li>
+    </ul>
+    <hr>
 
-  <h3>skills:</h3>
-  <ul>
-    <li><b>Strong Vanilla JavaScript (2 years+)</b></li>
-    <li><b>HTML, CSS</b></li>
-    <li><b>npm, Node.js, REST API</b></li>
-    <li><b>Git, GitHub</b></li>
-    <li>JSON, Mongo DB</li>
-    <li>PHP, MySQL, relational databases</li>
-    <li>little experience with React, Vue, Angular, TypeScript, Webpack</li>
-    <li>Python, C#, Forth, Lisp (limited knowledge)</li>
-    <li><b>online/offline programming tutoring, pair programming</b></li>
-    <li>advanced PC user for 25 years+</li>
-  </ul>
-  <hr>
+    <h3>skills:</h3>
+    <ul>
+      <li><b>Strong Vanilla JavaScript (2 years+)</b></li>
+      <li><b>HTML, CSS</b></li>
+      <li><b>npm, Node.js, REST API</b></li>
+      <li><b>Git, GitHub</b></li>
+      <li>JSON, Mongo DB</li>
+      <li>PHP, MySQL, relational databases</li>
+      <li>little experience with React, Vue, Angular, TypeScript, Webpack</li>
+      <li>Python, C#, Forth, Lisp (limited knowledge)</li>
+      <li><b>online/offline programming tutoring, pair programming</b></li>
+      <li>advanced PC user for 25 years+</li>
+    </ul>
+    <hr>
 
-  <h3>summary:</h3>
-  <p>I wish to express my interest in the Junior JavaScript Developer position within your company. I believe my skills and credentials are well suited to the requirements you are looking for. Despite the fact that I have no degree in Computer Science (never graduated from the University) I have solid background and knowledge in different areas of IT. I studied a range of courses and popular books, created a few of my own projects (you can check them on GitHub).</p>
-  <p>In order to deepen my knowledge and skills in web development I started remote tutoring for beginners. Through this process I obtained better understanding of fundamentals and some of advanced software programming concepts. Also, I am a quick learner and I have a great passion for new technologies.</p>
-  <hr>
+    <h3>summary:</h3>
+    <p>I wish to express my interest in the Junior JavaScript Developer position within your company. I believe my skills and credentials are well suited to the requirements you are looking for. Despite the fact that I have no degree in Computer Science (never graduated from the University) I have solid background and knowledge in different areas of IT. I studied a range of courses and popular books, created a few of my own projects (you can check them on GitHub).</p>
+    <p>In order to deepen my knowledge and skills as a web developer I started remote tutoring for beginners. Through this process I obtained even better understanding of fundamentals and also picked up some of advanced software programming concepts. I am a quick learner and I have a great passion for new technologies.</p>
+    <hr>
 
-  <h3>code examples:</h3>
-  <code>
-    const makeRepeatable =(fn, inter)=> {
-      const start =()=> {
-        stop(), fn()
-        start.intId = setInterval(fn, inter)
+    <h3>code examples:</h3>
+    <pre>
+      const makeRepeatable =(fn, inter)=> {
+        const start =()=> {
+          stop(), fn()
+          start.intId = setInterval(fn, inter)
+        }
+        const stop =()=> clearInterval(start.intId)
+        return [start, stop]
       }
-      const stop =()=> clearInterval(start.intId)
-      return [start, stop]
-    }
 
-    const makeThrottled =(fn, delay)=> {
-      const throttle =(...args)=> {
-        clearTimeout(cancel.timer)
-        cancel.timer = setTimeout(fn, delay, ...args)
+      const makeThrottled =(fn, delay)=> {
+        const throttle =(...args)=> {
+          clearTimeout(cancel.timer)
+          cancel.timer = setTimeout(fn, delay, ...args)
+        }
+        const runNow =(...args)=> {
+          clearTimeout(cancel.timer), fn(...args)
+        }
+        const cancel =()=> clearTimeout(cancel.timer)
+        return [throttle, cancel, runNow]
       }
-      const runNow =(...args)=> {
-        clearTimeout(cancel.timer), fn(...args)
-      }
-      const cancel =()=> clearTimeout(cancel.timer)
-      return [throttle, cancel, runNow]
-    }
 
-    // do note: I easily change my code style adapting to the people I teach or work with.
-  </code>
-  <a>More on my GitHub: <a>github.com/UniBreakfast</a></p>
-  <hr>
+      // do note: I easily change my code style
+      // adapting to the people I teach or work with.
+    </pre>
+    <a>More on my GitHub: <a>github.com/UniBreakfast</a></p>
+    <hr>
 
-  <h3>education:</h3>
-  <ul>
-    <li>Rolling Scopes School</li>
-    <li>easily 1k+ video lessons ranging from Crockford and Bob Martin to MPJ and Wes Bo</li>
-    <li>15+ online video courses on web-development and JavaScript programming</li>
-    <li>10+ books on JavaScript, Node.js, HTML, CSS (including “Eloquent JavaScript”, “You Don’t Know JS”, etc.</li>
-    <li>500+ hours in tutoring online (giving and receiving) and remote pair programming (as a driver but mostly as a navigator)</li>
-  </ul>
+    <h3>education:</h3>
+    <ul>
+      <li>Rolling Scopes School</li>
+      <li>easily 1k+ video lessons ranging from Crockford and Bob Martin to MPJ and Wes Bo</li>
+      <li>15+ online video courses on web-development and JavaScript programming</li>
+      <li>10+ books on JavaScript, Node.js, HTML, CSS (including “Eloquent JavaScript”, “You Don’t Know JS”, etc.</li>
+      <li>500+ hours in tutoring online (giving and receiving) and remote pair programming (as a driver but mostly as a navigator)</li>
+    </ul>
 
-  <h4>English level:</h4>
-  <p>Somewhere around B1 or B2. I’ve been playing video games, watching YouTube, movies and TV series without subtitles, learning, reading printed and listening to audiobooks in English for the last twenty years. And I’m looking forward to get more practical experience and actually speak it.</p>
-  <hr>
+    <h4>English level:</h4>
+    <p>Somewhere around B1 or B2. I’ve been playing video games, watching YouTube, movies and TV series without subtitles, learning, reading printed and listening to audiobooks in English for the last twenty years. And I’m looking forward to get more practical experience and actually speak it.</p>
+    <hr>
 
-  <p>The enclosed profile is a summary of my knowledge, skills and experience. I look forward to the opportunity to discuss in further details my ability to fulfill your requirements. Thank you for your consideration.</p>
-  <p>Yours sincerely, Mykhailo Ninin Velykoselskyi</p>
+    <p>The enclosed profile is a summary of my knowledge, skills and experience. I look forward to the opportunity to discuss in further details my ability to fulfill your requirements. Thank you for your consideration.</p>
+    <p>Yours sincerely, Mykhailo Ninin Velykoselskyi</p>
 
-  <a>⤒ go Up</a>
+    <a>⤒ go Up</a>
+  </main>
 </body>
 
 </html>
