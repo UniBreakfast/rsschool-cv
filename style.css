@@ -1,5 +1,5 @@
 html {
-  font: 18px/20px Trebuchet MS, Helvetica, Arial, sans-serif;
+  font: 16px/20px Trebuchet MS, Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -9,11 +9,11 @@ body {
 }
 
 main {
-  width: min(1000px, calc(100% - 80px));
+  width: min(1000px, calc(100% - 110px));
   margin: auto;
   border: 2px solid black;
   border-radius: 30px;
-  padding: 5px 25px;
+  padding: 15px 45px;
   background-color: bisque;
 }
 
@@ -25,13 +25,22 @@ hr {
 img {
   border: 2px solid black;
   border-radius: 20px;
-  width: 22.5%;
+  width: 20.5%;
   float: right;
   margin-left: 10px;
 }
 
 pre {
   font-size: 14px;
+}
+
+:link, :visited {
+  color: #e45f00;
+  transition: color 1s;
+}
+
+a:hover {
+  color: black;
 }
 
 .cutout {
@@ -52,12 +61,21 @@ pre {
   box-sizing: border-box;
 }
 
-.skills {
+.slider-left {
+  animation: left 2s ease-out 0 infinite alternate;
+}
+
+.slider-center {
   margin: 5px auto;
 }
 
-.code {
+.slider-right {
   margin-left: auto;
   overflow: auto;
   padding: 5px 50px;
+}
+
+@keyframes left {
+  0% {  }
+  50% { transform: translateX(100%); }
 }
