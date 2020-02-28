@@ -13,6 +13,10 @@ body {
 }
 
 main {
+  /* this is old and widely supportd */
+  width: calc(100% - 110px);
+  max-width: 1000px;
+  /* this is shorter but isn't supported in Mozilla Firefox */
   width: min(1000px, calc(100% - 110px));
   margin: auto;
   padding: 15px 45px;
@@ -24,6 +28,11 @@ main {
 hr {
   border: none;
   border-top: var(--thick);
+}
+
+.summary {
+  float: left;
+  padding-bottom: 10px;
 }
 
 img {
