@@ -1,6 +1,6 @@
 # Mykhailo Velykoselskyi (Ninin)
 ## *CV for the position of JavaScript Developer/Educator*
-### Contact Information:****
+### Contact Information:
 * Phone: __+380(68)126-59-81__, __+380(66)194-49-81__
 * GitHub: [github.com/UniBreakfast](https://github.com/UniBreakfast)
 * Telegram: __[t.me/unibreakfast](https://t.me/unibreakfast)__
