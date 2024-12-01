@@ -13,16 +13,20 @@
   <main>
     <header>
       <h1>Mykhailo Velykoselskyi (Ninin)</h1>
-      <h2>CV for a position of a Junior JavaScript Developer</h2>
+      <h2>CV for the position of JavaScript Developer/Educator</h2>
     </header>
 
     <section class="cutout">
       <div class="slider slider-left">
-        <h3>contact info:</h3>
+        <h3>Contact Information:</h3>
         <ul>
           <li>Phone: <b>+380(68)126-59-81, +380(66)194-49-81</b></li>
           <li>Telegram:
             <b><a href="https://t.me/unibreakfast">t.me/unibreakfast</a></b>
+          </li>
+          <li>GitHub:
+            <a href="https://github.com/UniBreakfast">
+              github.com/UniBreakfast</a>
           </li>
           <li>LinkedIn:
             <a href="https://www.linkedin.com/in/unibreakfast">
@@ -33,66 +37,64 @@
               facebook.com/UniBreakfast</a>
           </li>
           <li>Skype: unibreakfast</li>
-          <li>Email: <a>unibreakfast1@gmail.com</a></li>
+          <li>Email: <a href="mailto:unibreakfast1@gmail.com">unibreakfast1@gmail.com</a></li>
         </ul>
       </div>
     </section>
 
     <section class="cutout">
       <div class="slider slider-center">
-        <h3>skills:</h3>
+        <h3>Skills:</h3>
         <ul>
-          <li><b>Strong Vanilla JavaScript (3 years+)</b></li>
+          <li><b>Strong Vanilla JavaScript (7 years+, since 2018)</b></li>
           <li><b>HTML, CSS</b></li>
           <li><b>npm, Node.js, REST API</b></li>
           <li><b>Git, GitHub</b></li>
-          <li>JSON, Mongo DB</li>
+          <li>JSON, MongoDB</li>
           <li>PHP, MySQL, relational databases</li>
-          <li>little experience with React, Vue, Angular, TypeScript, Webpack</li>
+          <li>Some experience with React, Vue, Angular, TypeScript, Webpack</li>
           <li>Python, C#, Forth, Lisp (limited exposure)</li>
-          <li><b>online/offline programming tutoring, pair programming</b></li>
-          <li>advanced PC user for 25 years+</li>
-          <li>communication and networking (started and leading in a couple of communities online)</li>
+          <li><b>Online/offline programming tutoring individually or in groups</b></li>
+          <li><b>Pair programming</b></li>
+          <li>Advanced PC user for 25+ years</li>
+          <li>Communication and networking (initiated and led several online communities)</li>
         </ul>
       </div>
     </section>
 
     <section class="summary">
-      <img src="ava.jpg" alt="photo of Mikhail Ninin">
-      <h3>summary:</h3>
-      <a>I wish to express my interest in the Junior JavaScript Developer position within your company. I hope my skills and credentials are sufficient. Despite the fact that I have no degree in Computer Science (never graduated from the University) I have solid background and knowledge in different areas of IT. I studied a range of courses and popular books, created a few of my own projects (you can check them on <a href="https://github.com/UniBreakfast">GitHub</a>).</p>
-      <p>In order to deepen my knowledge and skills as a web developer I started remote tutoring for beginners. Through this process I obtained even better understanding of fundamentals and also picked up some of advanced software programming concepts. But really, the biggest of my passions is education for the newbies.</p>
+      <img src="ava.jpg" alt="Photo of Mikhail Ninin">
+      <h3>Summary:</h3>
+      <p>I wish to express my interest in the JavaScript Developer/Educator position within your company. I hope my skills and credentials are sufficient. Although I do not have a degree in Computer Science (I never graduated from university), I have a solid background and knowledge in various areas of IT. I have studied a wide range of courses and popular books, and created several of my own projects (you can check them on <a href="https://github.com/UniBreakfast">GitHub</a>).</p>
+      <p>To deepen my knowledge and skills as a web developer, I started remote tutoring for beginners. Through this process, I obtained a better understanding of fundamentals and also learned some advanced software programming concepts. However, my greatest passion is educating newcomers.</p>
     </section>
 
     <section class="cutout">
       <div class="slider slider-right">
-        <h3>code examples:</h3>
+        <h3>Code Examples:</h3>
         <pre>
-const <b>makeRepeatable</b> =(fn, inter)=> {
-  const <b>start</b> =()=> {
-    stop(), fn()
-    start.intId = setInterval(fn, inter)
+const <b>makeRepeatable</b> = (fn, inter) => {
+  const <b>start</b> = () => {
+    stop(), fn();
+    start.intId = setInterval(fn, inter);
   }
-  const <b>stop</b> =()=> clearInterval(start.intId)
-  return [start, stop]
+  const <b>stop</b> = () => clearInterval(start.intId);
+  return [start, stop];
 }
 
-const <b>makeThrottled</b> =(fn, delay)=> {
-  const <b>throttle</b> =(...args)=> {
-    clearTimeout(cancel.timer)
-    cancel.timer = setTimeout(fn, delay, ...args)
+const <b>makeThrottled</b> = (fn, delay) => {
+  const <b>throttle</b> = (...args) => {
+    clearTimeout(cancel.timer);
+    cancel.timer = setTimeout(fn, delay, ...args);
   }
-  const <b>runNow</b> =(...args)=> {
-    clearTimeout(cancel.timer), fn(...args)
+  const <b>runNow</b> = (...args) => {
+    clearTimeout(cancel.timer), fn(...args);
   }
-  const <b>cancel</b> =()=> clearTimeout(cancel.timer)
-  return [throttle, cancel, runNow]
+  const <b>cancel</b> = () => clearTimeout(cancel.timer);
+  return [throttle, cancel, runNow];
 }
-
-// do note: I easily change my code style
-// adapting to the people I teach or work with.
         </pre>
-        <a>More on my GitHub:
+        <p>More on my GitHub:
           <a href="https://github.com/UniBreakfast">
             github.com/UniBreakfast</a>
         </p>
@@ -100,26 +102,28 @@ const <b>makeThrottled</b> =(fn, delay)=> {
     </section>
 
     <section>
-      <h3>education:</h3>
+      <h3>Education:</h3>
       <ul>
-        <li>Rolling Scopes School</li>
-        <li>easily 1k+ video lessons ranging from Crockford and Bob Martin to MPJ and Wes Bos</li>
-        <li>15+ online video courses on web-development and JavaScript programming</li>
-        <li>10+ books on JavaScript, Node.js, HTML, CSS (including “Eloquent JavaScript”, “You Don’t Know JS”, etc.)</li>
-        <li>1000+ hours in tutoring online (giving and receiving) and remote pair programming (as a driver too, but mostly as a navigator)</li>
+        <li>Took part in the Rolling Scopes School</li>
+        <li>Trained and released four groups of students in Beetroot Academy</li>
+        <li>Went through 2,000+ video lessons ranging from Crockford and Bob Martin to MPJ and Wes Bos</li>
+        <li>20+ online video courses on web development and JavaScript programming</li>
+        <li>10+ books on JavaScript, Node.js, HTML, CSS (including “Definitive Guide,” “Eloquent JavaScript,” “You Don’t Know JS,” etc.)</li>
+        <li>12,000+ hours of online tutoring (giving and receiving) and remote pair programming (mostly as a navigator, sometimes as a driver)</li>
+        <li>400+ GitHub repositories illustrating my learning and teaching process</li>
       </ul>
 
-    <h4 style="margin: 0">English level:</h4>
-    <p>Somewhere around B1 or B2. I’ve been playing video games, watching YouTube, movies and TV series without subtitles, learning, reading printed and listening to audiobooks in English for the last twenty years. And I’m looking forward to get more practical experience and actually speak it.</p>
+      <h4 style="margin: 0">English Level:</h4>
+      <p>Somewhere around B1 or B2. I’ve been playing video games, watching YouTube, movies, and TV series without subtitles, learning, reading printed materials, and listening to audiobooks in English for the last twenty years. I’m looking forward to gaining more practical experience and actually speaking it.</p>
     </section>
 
     <hr>
 
     <footer>
-      <p>The enclosed profile is a summary of my knowledge, IT skills and experience. I look forward to the opportunity to discuss in further details my ability to fulfill your requirements. Thank you for your consideration.</p>
+      <p>The enclosed profile summarizes my knowledge, IT skills, and experience. I look forward to discussing in further detail my ability to fulfill your requirements. Thank you for your consideration.</p>
       <p style="text-align: right">Yours sincerely, Mykhailo Ninin Velykoselskyi</p>
 
-      <div style="text-align: center"><a href="#">&uarr; go Up &uarr;</a></div>
+      <div style="text-align: center"><a href="#">&uarr; Go Up &uarr;</a></div>
     </footer>
   </main>
 </body>

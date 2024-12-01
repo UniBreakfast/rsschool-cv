@@ -1,57 +1,60 @@
 # Mykhailo Velykoselskyi (Ninin)
-## *CV for a position of a Junior JavaScript Developer*
-### contact info:
+## *CV for the position of JavaScript Developer/Educator*
+### Contact Information:****
 * Phone: __+380(68)126-59-81__, __+380(66)194-49-81__
+* GitHub: [github.com/UniBreakfast](https://github.com/UniBreakfast)
 * Telegram: __[t.me/unibreakfast](https://t.me/unibreakfast)__
 * LinkedIn: [linkedin.com/in/unibreakfast](https://www.linkedin.com/in/unibreakfast)
 * Facebook: [facebook.com/UniBreakfast](https://facebook.com/UniBreakfast)
 * Skype: unibreakfast
-* Email: mykhailo.velykoselskyi@gmail.com
+* Email: [mykhailo.velykoselskyi@gmail.com](mailto:mykhailo.velykoselskyi@gmail.com)
 
 ---
 
-### skills:
-* __Strong Vanilla JavaScript (2 years+)__
+### Skills:
+* __Strong Vanilla JavaScript (7 years+, since 2018)__
 * __HTML, CSS__
 * __npm, Node.js, REST API__
 * __Git, GitHub__
 * JSON, Mongo DB
 * PHP, MySQL, relational databases
-* little experience with React, Vue, Angular, TypeScript, Webpack
+* Some experience with React, Vue, Angular, TypeScript, Webpack
 * Python, C#, Forth, Lisp (limited knowledge)
-* __online/offline programming tutoring, pair programming__
+* __Online/offline programming tutoring individually or in groups__
+* __Pair programming__
 * advanced PC user for 25 years+
+* Communication and networking (initiated and led several online communities)
 
 ---
 
-### summary:
+### Summary:
 
-I wish to express my interest in the Junior JavaScript Developer position within your company. I believe my skills and credentials are well suited to the requirements you are looking for. Despite the fact that I have no degree in Computer Science (never graduated from the University) I have solid background and knowledge in different areas of IT. I studied a range of courses and popular books, created a few of my own projects (you can check them on [GitHub](https://github.com/UniBreakfast)). 
+I wish to express my interest in the JavaScript Developer/Educator position within your company. I hope my skills and credentials are sufficient. Although I do not have a degree in Computer Science (I never graduated from university), I have a solid background and knowledge in various areas of IT. I have studied a wide range of courses and popular books, and created several of my own projects (you can check them on [GitHub](https://github.com/UniBreakfast)). 
 
-In order to deepen my knowledge and skills in web development I started remote tutoring for beginners. Through this process I obtained better understanding of fundamentals and some of advanced software programming concepts. Also, I am a quick learner and I have a great passion for new technologies.
+To deepen my knowledge and skills as a web developer, I started remote tutoring for beginners. Through this process, I obtained a better understanding of fundamentals and also learned some advanced software programming concepts. However, my greatest passion is educating newcomers.
 
 ---
 
-### code examples:
+### Code Examples:
 ```js
-const makeRepeatable =(fn, inter)=> {
-  const start =()=> {
+const makeRepeatable = (fn, inter) => {
+  const start = () => {
     stop(), fn()
     start.intId = setInterval(fn, inter)
   }
-  const stop =()=> clearInterval(start.intId)
+  const stop = () => clearInterval(start.intId)
   return [start, stop]
 }
 
-const makeThrottled =(fn, delay)=> {
-  const throttle =(...args)=> {
+const makeThrottled = (fn, delay) => {
+  const throttle = (...args) => {
     clearTimeout(cancel.timer)
     cancel.timer = setTimeout(fn, delay, ...args)
   }
-  const runNow =(...args)=> {
+  const runNow = (...args) => {
     clearTimeout(cancel.timer), fn(...args)
   }
-  const cancel =()=> clearTimeout(cancel.timer)
+  const cancel = () => clearTimeout(cancel.timer)
   return [throttle, cancel, runNow]
 }
 
@@ -61,19 +64,21 @@ More on my GitHub: [github.com/UniBreakfast](https://github.com/UniBreakfast)
 
 ---
 
-### education:
-* Rolling Scopes School
-* easily 1k+ video lessons ranging from Crockford and Bob Martin to MPJ and Wes Bos
-* 15+ online video courses on web-development and JavaScript programming
-* 10+ books on JavaScript, Node.js, HTML, CSS (including "Eloquent JavaScript", "You Don't Know JS", etc.)
-* __500+ hours in tutoring online (giving and receiving) and remote pair programming (as a driver but mostly as a navigator)__
+### Education:
+* Took part in the Rolling Scopes School
+* Trained and released four groups of students in Beetroot Academy
+* Went through 2,000+ video lessons ranging from Crockford and Bob Martin to MPJ and Wes Bos
+* Completed 20+ online video courses on web development and JavaScript programming
+* Read 10+ books on JavaScript, Node.js, HTML, CSS (including “Definitive Guide,” “Eloquent JavaScript,” “You Don’t Know JS,” etc.)
+* Participated in 12,000+ hours of online tutoring (giving and receiving) and remote pair programming (mostly as a navigator, sometimes as a driver)
+* Created 400+ GitHub repositories illustrating my learning and teaching process
 
 #### English level:
-Somewhere around B1 or B2. I've been playing video games, watching YouTube, movies and TV series without subtitles, learning, reading printed and listening to audiobooks in English for the last twenty years. And I'm looking forward to get more practical experience and actually speak it.
+Somewhere around B1 or B2. I’ve been playing video games, watching YouTube, movies, and TV series without subtitles, learning, reading printed materials, and listening to audiobooks in English for the last twenty years. I’m looking forward to gaining more practical experience and actually speaking it.
 
 ---
 
-The enclosed profile is a summary of my knowledge, skills and experience. I look forward to the opportunity to discuss in further details my ability to fulfill your requirements. Thank you for your consideration.
+The enclosed profile summarizes my knowledge, IT skills, and experience. I look forward to discussing in further detail my ability to fulfill your requirements. Thank you for your consideration.
 
 Yours sincerely,
 Mykhailo Ninin Velykoselskyi
